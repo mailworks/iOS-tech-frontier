@@ -250,7 +250,7 @@ typedef RCFireExtinguisher *(^RCFireExtinguisherFactory)();
 }
 ```
 
-你的类的简单初始化方法应该是最合适的。一个经常被用到的（可重用）的配置在一个.m文件中，而一个特定的配置文件应该在在`@interface RaceCar (FooConfiguration)`的类别文件中比如`fooRaceCar `。
+你的类的便利初始化方法应该是最合适的。一个经常被用到的（可重用）的配置在一个.m文件中，而一个特定的配置文件应该在在`@interface RaceCar (FooConfiguration)`的类别文件中比如`fooRaceCar `。
 
 ##系统单例
 
